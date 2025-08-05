@@ -1,4 +1,4 @@
-import styles from './styles.module.css'
+import styles from './styles.module.scss'
 import clsx from 'clsx'
 
 interface ComponentProps extends React.ComponentProps<'button'> {
