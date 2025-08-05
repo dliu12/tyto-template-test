@@ -15,6 +15,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
+    "prepare": "vitest run && npm run build",
     "prepublish": "vitest run && npm run build"
   },
   "module": "./dist/main.js",
