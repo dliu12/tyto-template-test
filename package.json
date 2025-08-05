@@ -15,8 +15,6 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
-    "postinstall": "npm run build",
-    "prepare": "vitest run && npm run build",
     "prepublish": "vitest run && npm run build"
   },
   "module": "./dist/main.js",
